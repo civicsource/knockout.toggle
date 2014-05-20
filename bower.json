@@ -7,6 +7,6 @@
     "bower_components"
   ],
   "dependencies": {
-    "knockout.js": "~3.1.0"
+    "knockout": "~3.1.0"
   }
 }
