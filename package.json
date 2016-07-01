@@ -4,7 +4,8 @@
   "description": "Knockout binding to toggle boolean view model properties",
   "main": "knockout.toggle.js",
   "scripts": {
-    "test": ""
+    "lint": "eslint . --format=unix",
+    "prepublish": "npm run lint"
   },
   "repository": {
     "type": "git",

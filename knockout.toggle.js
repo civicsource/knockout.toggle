@@ -19,16 +19,16 @@ ko.bindingHandlers.toggle = {
 			}
 		});
 
-		var hasTabIndex = element.getAttribute('tabIndex');
-		if (!hasTabIndex) element.tabIndex = '0';
+		var hasTabIndex = element.getAttribute("tabIndex");
+		if (!hasTabIndex) element.tabIndex = "0";
 
-		element.setAttribute('role', 'checkbox');
+		element.setAttribute("role", "checkbox");
 
 		ko.bindingHandlers.click.init(element, fnToggle, allBindingsAccessor, viewModel, bindingContext);
 	},
 	update: function (element, valueAccessor) {
 		var target = valueAccessor();
-		element.setAttribute('aria-checked', target());
+		element.setAttribute("aria-checked", target());
 	}
 };
 
