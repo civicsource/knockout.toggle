@@ -2,17 +2,15 @@
 
 > Knockout binding to toggle boolean view model properties.
 
-## Install with [Bower](http://bower.io/)
+## Installation
 
 ```
-bower install knockout-toggle
+npm install knockout-toggle
 ```
 
-Then add `knockout.toggle.js` to your project.
+## Usage
 
-## How to Use
-
-Include the script on your page (either via a normal script tag or via an AMD loader). Then use it like so:
+Include the script with your module bundler, then use the binding like so:
 
 ```html
 <button data-bind="toggle: myProp">Toggle the thing</button>
