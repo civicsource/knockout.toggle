@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm install knockout-toggle
+npm install knockout.toggle
 ```
 
 ## Usage
