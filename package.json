@@ -1,0 +1,32 @@
+{
+  "name": "knockout.toggle",
+  "version": "2.0.0",
+  "description": "Knockout binding to toggle boolean view model properties",
+  "main": "knockout.toggle.js",
+  "scripts": {
+    "lint": "eslint . --format=unix",
+    "prepublish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civicsource/knockout.toggle.git"
+  },
+  "keywords": [
+    "knockout",
+    "toggle"
+  ],
+  "author": "CivicSource",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/civicsource/knockout.toggle/issues"
+  },
+  "homepage": "https://github.com/civicsource/knockout.toggle#readme",
+  "peerDependencies": {
+    "knockout": "3.x"
+  },  
+  "devDependencies": {
+    "babel-eslint": "6.x",
+    "eslint": "2.x",
+    "eslint-plugin-filenames": "1.x"
+  }
+}
